@@ -16,6 +16,10 @@
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
+    input, select, textarea{
+    color: white;
+}
+
     </style>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
@@ -52,7 +56,6 @@
             
             <div class="input-field">
               <select id="category" name="category_select">
-                <option class="disabled" value="">Choose a category</option>
                 {% for category in categories %}
                 <option
                   class=""
